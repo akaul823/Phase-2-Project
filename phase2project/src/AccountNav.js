@@ -1,9 +1,12 @@
 import User from "./User";
 function AccountNav(){
     return (
-        <h3>
-            <User />
-        </h3>
+        <nav className="account-list">
+            <label>
+                Accounts
+                <User />
+            </label>
+        </nav>
     )
 }
 

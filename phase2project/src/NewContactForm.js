@@ -1,8 +1,18 @@
 function NewContactForm(){
     return(
-        <h1> 
-            
-        </h1>
+        <form className="new-task-form">
+            <p>Contact</p>
+            <label>
+                Name
+                <input type="text" name="text" />
+                Number
+                <input type="text" name="text" />
+                Address
+                <input type="text" name="text" />
+            </label>
+
+            <input type="submit" value="Add Contact" />
+        </form>
     )
 }
 

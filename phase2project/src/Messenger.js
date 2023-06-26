@@ -1,9 +1,12 @@
 
 function Messenger(){
     return(
-        <h1>
+        <div className="message-container">
+            <div>
             
-        </h1>
+            </div>
+
+        </div>
     )
 }
 
