@@ -1,7 +1,8 @@
+import User from "./User";
 function AccountNav(){
     return (
         <h3>
-            Nav
+            <User />
         </h3>
     )
 }
