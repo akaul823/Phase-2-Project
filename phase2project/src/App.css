@@ -33,7 +33,11 @@
   left: 0;
 }
 
-.user{
+.user-card{
   border: 2px solid red;
   padding: 30px;
+}
+
+.user-image{
+  position: relative;
 }
