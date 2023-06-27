@@ -7,7 +7,7 @@ function Header(){
                 My Messenger!
             </h1>
         </header>
-    );
+    )
 }
 
 

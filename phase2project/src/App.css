@@ -28,9 +28,21 @@
   color: #61dafb;
 }
 
-.account-list{
+.account-container{
   position: absolute;
   left: 0;
+}
+
+.contacts-container{
+  position: relative;
+  border: 5px solid;
+  padding: 30
+}
+
+.contact-form{
+  position: relative;
+  border: 5px solid yellow;
+  padding: 30
 }
 
 .user-card{

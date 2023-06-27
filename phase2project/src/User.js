@@ -8,10 +8,6 @@ function User(){
                 <p className='user-address'>Address</p>
             </div>
             <button>Edit Contact</button>
-            <div className="likes">
-                <img src={"logo512.png"} alt="like" style={{width:"32px",height:"32px",verticalAlign:"middle"}} />
-                <span style={{fontSize:"24px"}}>likes</span>
-            </div>
         </div>
     )
 }

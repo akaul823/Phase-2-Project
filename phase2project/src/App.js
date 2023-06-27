@@ -1,7 +1,7 @@
 import Header from './Header';
-import NewContactForm from './NewContactForm';
 import AccountNav from './AccountNav';
 import Messenger from './Messenger';
+import Contacts from './Contacts';
 import { useState } from 'react';
 import './App.css';
 
@@ -10,10 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Contacts />
       <Messenger />
       <AccountNav />
-      {/*The contact form will be moved from the app to the account nav */}
-      <NewContactForm />
 
     </div>
   );
