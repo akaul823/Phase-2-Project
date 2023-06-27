@@ -7,15 +7,19 @@ import './App.css';
 
 function App() {
   const [data, setData] = useState([])
+
   useEffect(()=>{
     fetch("http://localhost:4000/data")
     .then(res=>res.json())
     .then(data=>setData(data))
+    // .then(console.log(data))
   }, [])
+  
   return (
     <div className="App">
-      <Header />
+  
       <AccountNav data={data} />
+      <Contacts data={data}/>
     </div>
   );
 }

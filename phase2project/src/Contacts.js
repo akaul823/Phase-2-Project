@@ -1,17 +1,15 @@
 import NewContactForm from "./NewContactForm";
-function Contacts(){
+import Usermap from "./Usermap";
+
+function Contacts({data}){
+    console.log(data);
     return (
         <div className= "contacts-container">
             <nav className="contact-list">
-                <strong>
-                    Contacts
-                </strong>
-                <div className="contacts">
-                    contacts go here
-                </div>
-                <div className="contact-form">
-                    <NewContactForm />
-                </div>
+                <article className="test">
+                    {data.map((contact)=>{<Usermap contact={contact} />})}
+                </article>
+                
             </nav>
         </div>
     )

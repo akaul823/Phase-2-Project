@@ -11,8 +11,13 @@
 
 .contacts-container{
   position: relative;
-  border: 5px solid;
+  height: 200px;
+  border: 5px solid red;
   padding: 30;
+}
+.test {
+  border: 2px solid blue;
+  height: 100px;
 }
 
 
