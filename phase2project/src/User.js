@@ -1,12 +1,10 @@
 function User(){
     return (
-        <div className="user-card">
+        <div className="user">
             <img src={"profile.jpg"} alt={"name"} className="user-image" />
-            <div className="user-info" style={{borderRadius:"5px", padding: "1rem"}}>
-                <p className="user-name"> Name: Avi Kaul</p>
-                <p className='user-number'> Number: </p>
-                <p className='user-address'> Address: </p>
-            </div>
+            <p className="user-name"> Name: Avi Kaul</p>
+            <p className='user-number'> Number: </p>
+            <p className='user-address'> Address: </p>
             <button>Edit Contact</button>
         </div>
     )

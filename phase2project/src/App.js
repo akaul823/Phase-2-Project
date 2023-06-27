@@ -16,8 +16,6 @@ function App() {
     <div className="App">
       <Header />
       <AccountNav data={data} />
-      <Contacts />
-      <Messenger />
     </div>
   );
 }

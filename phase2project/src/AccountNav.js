@@ -1,6 +1,6 @@
 import User from "./User";
 
-function AccountNav(){
+function AccountNav({data}){
     return (
         <nav className="account-container">
             <div>
