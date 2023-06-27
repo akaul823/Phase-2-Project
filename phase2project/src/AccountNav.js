@@ -2,14 +2,18 @@ import User from "./User";
 
 function AccountNav(){
     return (
-        <div className="account-container">
-            <nav className="account-list">
+        <nav className="account-container">
+            <div>
                 <strong>
                  Accounts
                 </strong>
-                <User />
+                <ul className="account-list">
+                    <li>
+                    <User />
+                    </li>
+                </ul>
+            </div>
         </nav>
-        </div>
     )
 }
 

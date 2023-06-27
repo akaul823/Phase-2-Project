@@ -10,10 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <AccountNav />
       <Contacts />
       <Messenger />
-      <AccountNav />
-
     </div>
   );
 }

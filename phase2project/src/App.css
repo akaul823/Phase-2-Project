@@ -1,48 +1,42 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  position: relative;
 }
 
 .account-container{
   position: absolute;
   left: 0;
+  border: 5px solid blue
 }
 
 .contacts-container{
   position: relative;
   border: 5px solid;
-  padding: 30
+  padding: 30;
 }
 
-.contact-form{
+
+.new-contact-form{
   position: relative;
   border: 5px solid yellow;
-  padding: 30
+  padding: 30;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-display{
+  position: relative;
+  border: 5px solid green;
+  padding: 17;
+  align-items: center;
+}
+.message-content{
+  display: flex
+}
+.send-message{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .user-card{

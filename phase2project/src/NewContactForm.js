@@ -1,17 +1,17 @@
 function NewContactForm(){
     return(
         <form className="new-contact-form">
-            <p>Contact</p>
-            <label>
+            <b>Contact Form</b>
+            <div>
                 Name
-                <input type="text" name="text" />
+                <input type="text" name="text" placeholder="Name" />
                 Number
-                <input type="text" name="text" />
+                <input type="text" name="text" placeholder="(xxx)-xxx-xxxx" />
                 Address
-                <input type="text" name="text" />
+                <input type="text" name="text" placeholder="Address" />
                 Photo
-                <input type="text" name="text" />
-            </label>
+                <input type="text" name="text" placeholder="Profile Picture" />
+            </div>
 
             <input type="submit" value="Add Contact" />
         </form>

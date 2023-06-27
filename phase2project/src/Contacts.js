@@ -6,8 +6,11 @@ function Contacts(){
                 <strong>
                     Contacts
                 </strong>
+                <div className="contacts">
+                    contacts go here
+                </div>
                 <div className="contact-form">
-                <NewContactForm />
+                    <NewContactForm />
                 </div>
             </nav>
         </div>
