@@ -39,6 +39,11 @@
   justify-content: flex-end;
 }
 
+.user{
+  border: 5px solid blue
+
+}
+
 .user-card{
   border: 2px solid red;
   padding: 30px;
