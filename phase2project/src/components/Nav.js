@@ -6,20 +6,20 @@ function Nav ({list, nav, setUser, setAccount, eventHandler}) {
     
     if (nav === "userList") {
         return(
-            <nav className="userList">
+            <div className="userList">
                 <ul>
                 {list.map(item => <User name={item.name} key={item.id} myID={item.id} setUser={setUser} nav={nav} eventHandler={eventHandler}/>)}
                 </ul>
-            </nav>
+            </div>
         );
     }
     if (nav === "accountList") {
         return(
-            <nav className="accountList">
+            <div className="accountList">
                 <ul>
                 {list.map(item => <User name={item.name} key={item.id} myID={item.id} setAccount={setAccount} nav={nav} eventHandler={eventHandler}/>)}
                 </ul>
-            </nav>
+            </div>
         );
     }
 }

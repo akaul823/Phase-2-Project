@@ -45,6 +45,7 @@
           "content": "holy shit I can talk",
           "chronoID": 2,
           "id": 2
+<<<<<<< HEAD
         },
         {
           "sent": true,
@@ -63,6 +64,8 @@
           "content": "hi",
           "chronoID": 4,
           "id": 3
+=======
+>>>>>>> pulledChris
         }
       ]
     },
@@ -99,6 +102,7 @@
           "content": "holy shit I can talk",
           "chronoID": 2,
           "id": 1
+<<<<<<< HEAD
         },
         {
           "sent": true,
@@ -117,6 +121,8 @@
           "content": "hi",
           "chronoID": 2,
           "id": 3
+=======
+>>>>>>> pulledChris
         }
       ]
     },
@@ -159,6 +165,7 @@
           "content": "checking",
           "chronoID": 3,
           "id": 1
+<<<<<<< HEAD
         },
         {
           "sent": true,
@@ -171,6 +178,8 @@
           "content": "hi",
           "chronoID": 4,
           "id": 1
+=======
+>>>>>>> pulledChris
         }
       ]
     }
