@@ -20,6 +20,18 @@ function App() {
   const navUserList = userList.map(item => ({name:item.name, id:item.id}))
   const navAccountList = userList.map(item => ({name:item.name, id:item.id}))
 
+  function addUser(contact){
+    fetch(URL,{
+      method:"POST",
+      headers:{
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(contact)
+    })
+    .then(res=>res.json())
+    .then(contact=>setUserList([...userList, contact]))
+  }
+
   function renderMessages(userID, accountID, data=userList) {
     let currentMessager
     const toSort = []
