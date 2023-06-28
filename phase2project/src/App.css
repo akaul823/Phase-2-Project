@@ -9,6 +9,7 @@
   border: 5px solid blue
 }
 
+<<<<<<< Updated upstream
 .contacts-container{
   position: relative;
   height: 200px;
@@ -43,12 +44,15 @@
   display: flex;
   justify-content: flex-end;
 }
+=======
+>>>>>>> Stashed changes
 
 .user{
   border: 5px solid blue
 
 }
 
+<<<<<<< Updated upstream
 .user-card{
   border: 2px solid red;
   padding: 30px;
@@ -57,3 +61,16 @@
 .user-image{
   position: relative;
 }
+=======
+#root{
+  background-color: purple;
+}
+
+#selected {
+  color: red;
+}
+#not-selected {
+  color: blue;
+}
+
+>>>>>>> Stashed changes
