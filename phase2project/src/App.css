@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.userList {
+  background-color: yellowgreen;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.accountList {
+  background-color: orange;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 #selected {
   color: red;
 }

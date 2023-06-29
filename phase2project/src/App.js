@@ -3,6 +3,7 @@ import React from 'react';
 import Nav from './components/Nav'
 import Chat from './components/Chat'
 import Form from './components/Form'
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 const URL = "http://localhost:3000/data"
 
@@ -164,11 +165,11 @@ function App() {
     <div className="userList">
       <Nav list={navUserList} nav="userList" setUser={setUser} eventHandler={chatSwitch}/>
     </div>
-    <div className="accountList">
-      <Nav list={navAccountList} nav="accountList" setAccount={setAccount} eventHandler={chatSwitch}/>
-    </div>
     <div className="chat">
       <Chat display={displayMessages} newMessage={newMessage}/>
+    </div>
+    <div className="accountList">
+      <Nav list={navAccountList} nav="accountList" setAccount={setAccount} eventHandler={chatSwitch}/>
     </div>
     </div>
   );

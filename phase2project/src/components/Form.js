@@ -1,13 +1,13 @@
 import React from "react";
 function Form({addUser}){
     const [userContact, setUserContact]= React.useState({
-        name:""
+        id:0,
+        name: "",
+        messages: []
     })
 
     function handleFormData(e){
-        setUserContact({
-            ...userContact, [e.target.name]:e.target.value  
-        })
+        setUserContact({...userContact, [e.target.name]: e.target.value})
     }
     function handleSubmit(e){
         e.preventDefault()
@@ -16,10 +16,10 @@ function Form({addUser}){
 
     return(
         <div className="form">
-            <h2>Contact</h2>
+            <h2>Users</h2>
             <form onSubmit={handleSubmit}>
-          <input onChange={handleFormData} type="text" name="name" placeholder="Contact Name" />
-          <button type="submit">Add Contact</button>
+          <input onChange={handleFormData} type="text" name="name" placeholder="Username" />
+          <button type="submit">Add User</button>
         </form>
       </div>
     )
