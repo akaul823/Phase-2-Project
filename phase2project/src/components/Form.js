@@ -1,5 +1,5 @@
 import React from "react";
-function Form(){
+function Form({addUser}){
     const [userContact, setUserContact]= React.useState({
         name:""
     })
@@ -9,12 +9,19 @@ function Form(){
             ...userContact, [e.target.name]:e.target.value  
         })
     }
-    // function handleSubmit(e){
-    //     e.preventDefault()
-    //     addContact(userContact)
-    // }
+    function handleSubmit(e){
+        e.preventDefault()
+        addUser(userContact)
+    }
+
     return(
-        console.log("hi")
+        <div className="form">
+            <h2>Contact</h2>
+            <form onSubmit={handleSubmit}>
+          <input onChange={handleFormData} type="text" name="name" placeholder="Contact Name" />
+          <button type="submit">Add Contact</button>
+        </form>
+      </div>
     )
 }
 export default Form;

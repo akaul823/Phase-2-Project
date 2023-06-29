@@ -160,6 +160,7 @@ function App() {
 
   return (
     <div>
+      <Form addUser={addUser} />
     <div className="userList">
       <Nav list={navUserList} nav="userList" setUser={setUser} eventHandler={chatSwitch}/>
     </div>
