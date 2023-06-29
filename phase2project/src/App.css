@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex
 }
 
 .App-logo {
@@ -29,16 +30,58 @@
 }
 
 .userList {
-  background-color: yellowgreen;
+  background-color: lightgreen;
   border-radius: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  width: 99%;
+  display: flex;
+  justify-content: center;
 }
 
+ /* .userList h2 {
+  display:
+
+ 
+ } */
+
+/* .userHeader{
+  margin: 10px auto;
+} */
+
 .accountList {
-  background-color: orange;
+  background-color: lightcoral;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(209, 52, 52, 0.3);
+  /* display: inline-block */
+}
+.chat {
+  background-color: lightblue;
   border-radius: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  border: 1px solid yellow;
 }
+/* .chatDisplay{
+  height: 100px;
+  
+} */
+.avi {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.avi p {
+  padding-right: 5px;
+}
+
+.avi p:hover {
+  font-size: 20px;
+}
+
+/* .individual{
+  padding: 1px
+
+} */
 
 #selected {
   color: red;
@@ -55,3 +98,14 @@
     transform: rotate(360deg);
   }
 }
+
+.bottom-container{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  
+}
+.form{
+  justify-content: center;
+}
+

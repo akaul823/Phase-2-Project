@@ -12,11 +12,12 @@ function Form({addUser}){
     function handleSubmit(e){
         e.preventDefault()
         addUser(userContact)
+        e.target.reset()
     }
 
     return(
         <div className="form">
-            <h2>Users</h2>
+            <h2>Add Users</h2>
             <form onSubmit={handleSubmit}>
           <input onChange={handleFormData} type="text" name="name" placeholder="Username" />
           <button type="submit">Add User</button>

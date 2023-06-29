@@ -6,16 +6,22 @@ const fuckYou = display.map(message => <Message  key={message.chronoID} content=
 
 //console.log(display)
     return(
-        <div className="chat">
-            <ul>
+        <div className="gatorade">
+
+            <ul className="chatDisplay">
+
                 {display.map(message => <Message  key={message.chronoID} content={message.content} sent={message.sent}/>
                 )}
             </ul>
-            <form onSubmit={e=> {e.preventDefault()
-                newMessage(e.target.message.value)}}>
-                <input type="text" name="message"></input>
-                <input type="submit"></input>
-            </form>
+            <div className="chatbox">
+                <form onSubmit={e=> {e.preventDefault()
+                    newMessage(e.target.message.value)
+                    e.target.reset()
+                    }}>
+                    <input type="text" name="message" placeholder="Type"></input>
+                    <input type="submit"></input>
+                </form>
+            </div>
         </div>
     );
 }

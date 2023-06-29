@@ -165,12 +165,15 @@ function App() {
     <div className="userList">
       <Nav list={navUserList} nav="userList" setUser={setUser} eventHandler={chatSwitch}/>
     </div>
-    <div className="chat">
-      <Chat display={displayMessages} newMessage={newMessage}/>
+    <div className="bottom-container">
+      <div className="accountList">
+        <Nav list={navAccountList} nav="accountList" setAccount={setAccount} eventHandler={chatSwitch}/>
+      </div>
+      <div className="chat">
+        <Chat display={displayMessages} newMessage={newMessage}/>
+     </div>
     </div>
-    <div className="accountList">
-      <Nav list={navAccountList} nav="accountList" setAccount={setAccount} eventHandler={chatSwitch}/>
-    </div>
+
     </div>
   );
 }

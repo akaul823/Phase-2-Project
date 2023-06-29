@@ -7,7 +7,7 @@ function User({name, setUser, setAccount, nav, eventHandler, myID}) {
         return(
             <div className={isSelected ? "selected":"not-selected"} identifier={myID} onClick={e=>{eventHandler(myID, nav)
             setIsSelected(selected => !selected)}}>
-                <p>{name}</p>
+                <p className="individual">{name}</p>
             </div>
         );
     }
