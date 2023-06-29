@@ -7,6 +7,7 @@ function Message ({content, sent}) {
         <li>
             <p>{content}</p>
         </li>
+        
     )
 }
 export default Message

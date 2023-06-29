@@ -25,9 +25,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .userList {
   background-color: lightgreen;
@@ -38,15 +36,6 @@
   justify-content: center;
 }
 
- /* .userList h2 {
-  display:
-
- 
- } */
-
-/* .userHeader{
-  margin: 10px auto;
-} */
 
 .accountList {
   background-color: lightcoral;
@@ -58,13 +47,25 @@
   background-color: lightblue;
   border-radius: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  border: 1px solid yellow;
+  display: flex;
 }
-/* .chatDisplay{
-  height: 100px;
-  
-} */
+
+.messageDiv{
+  height: 500px;
+  width: 100%;
+  overflow: auto;
+}
+
+.chatForm {
+  /* position: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: end; */
+  /* border: 1px solid black; */
+  height: 30%;
+  background-color: white;
+}
+
+
 .avi {
   display:flex;
   flex-wrap: wrap;
@@ -103,6 +104,7 @@
   display:grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 10px;
+  
   
 }
 .form{
