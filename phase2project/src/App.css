@@ -51,11 +51,14 @@
 }
 
 .messageDiv{
-  height: 500px;
+  height: 550px;
   width: 100%;
   overflow: auto;
 }
 
+/* .gru{
+
+} */
 .chatForm {
   /* position: flex; */
   /* flex-wrap: wrap; */
@@ -76,6 +79,10 @@
 }
 
 .avi p:hover {
+  font-size: 20px;
+}
+
+.account-items p:hover{
   font-size: 20px;
 }
 

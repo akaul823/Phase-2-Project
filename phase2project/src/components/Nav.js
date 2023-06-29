@@ -18,7 +18,7 @@ function Nav ({list, nav, setUser, setAccount, eventHandler}) {
         return(
             <div className="accountList">
                 <h2 className="userHeader">Accounts</h2>
-                <ul>
+                <ul className="account-items">
                 {list.map(item => <User name={item.name} key={item.id} myID={item.id} setAccount={setAccount} nav={nav} eventHandler={eventHandler}/>)}
                 </ul>
             </div>

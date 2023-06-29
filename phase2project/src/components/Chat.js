@@ -7,7 +7,7 @@ const fuckYou = display.map(message => <Message  key={message.chronoID} content=
 //console.log(display)
     return(
         <div className="all-chat">
-            <h4>Messages</h4>
+            <h4 className="gru">Messages</h4>
             <div className="messageDiv">
 
             <ul className="chatDisplay">
